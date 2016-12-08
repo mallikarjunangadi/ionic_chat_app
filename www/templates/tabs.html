@@ -1,0 +1,13 @@
+<ion-view title="ChatApp">
+  <ion-pane>
+         
+    <ion-tabs class="tabs-positive">
+      <ion-tab title="Contacts" href="#/tabs/contacts">
+        <ion-nav-view name="contacts-tab"> </ion-nav-view>
+      </ion-tab>  
+      <ion-tab title="Recent" on-select="loadRecentChatMessages()" href="#/tabs/recentChat">
+        <ion-nav-view name="recentChat-tab"> </ion-nav-view> 
+      </ion-tab>
+    </ion-tabs>
+   </ion-pane> 
+</ion-view>

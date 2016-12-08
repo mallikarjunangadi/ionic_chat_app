@@ -1,0 +1,11 @@
+<ion-view title="ChatApp">
+ <ion-content>
+  <ion-list>
+   <ion-item class="item item-avatar" ng-repeat="user in userDetails" ng-click="setUserDetails(user)">
+    <img src="{{user.avatar}}"></img> <span style="position:absolute;right:5px;font-size:12px;" am-time-ago="user.dateTimeMessage"></span>
+    <h3>{{user.name}}</h3>
+    <p>{{user.messageText}}</p>
+   </ion-item> 
+  </ion-list>                
+ </ion-content>
+</ion-view> 

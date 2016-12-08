@@ -1,0 +1,39 @@
+{
+	"channels": {
+		"channel1": [{
+			"name": "Mallikarjun",
+			"avatar": "/img/me.jpg",
+			"userId": "mallikarjun123"
+		}, {
+			"name": "Sandeep",
+			"avatar": "/img/paint.jpg",
+			"userId": "sandeep123"
+		}, {
+			"name": "Akarsh",
+			"avatar": "/img/tiger.jpg",
+			"userId": "akarsh123"
+		}, {
+			"name": "Abhiram",
+			"avatar": "/img/happy.jpg",
+			"userId": "abhi123"
+		}],
+		"channel2": [{
+			"name": "Sindhu",
+			"avatar": "/img/happy.jpg",
+			"userId": "sindhu123"
+		}, {
+			"name": "Sheetal",
+			"avatar": "/img/tiger.jpg",
+			"userId": "sheetal123"
+		}, {
+			"name": "Akarsh",
+			"avatar": "/img/tiger.jpg",
+			"userId": "akarsh123"
+		}, {
+			"name": "Angu",
+			"avatar": "/img/photography1.jpg",
+			"userId": "angu123"
+		}]
+	}
+
+}

@@ -1,0 +1,11 @@
+<ion-view title="ChatApp">
+ <ion-content>
+  <ion-list>
+  
+    <ion-item ng-repeat="(key, value) in jsonData" ng-click="loadChannelUsers(key, value)">
+     {{key}}
+    </ion-item> 
+  
+  </ion-list>                
+ </ion-content>
+</ion-view> 

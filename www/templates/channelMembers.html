@@ -1,0 +1,20 @@
+<ion-header-bar class="bar-positive"></ion-header-bar>
+<ion-view title="Channel Members">
+  
+ <ion-nav-buttons side="left">
+  <button class="button button-clear" ng-click="goBack()" >
+    <i class="icon ion-ios-arrow-back"></i>
+     Back</button>
+   </ion-nav-buttons>  
+
+ <ion-content class="has-header">
+  <ion-list>
+    <div ng-repeat="(key, values) in channelUsers">
+    <ion-item class="item item-avatar" ng-repeat="value in values">
+     <img src="{{value.avatar}}"></img>
+      <h3>{{value.name}}<h3>
+    </ion-item>  
+    </div> 
+  </ion-list> 
+ </ion-content>
+</ion-view> 
